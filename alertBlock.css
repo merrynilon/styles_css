@@ -1,0 +1,69 @@
+.alertContainer {
+  display: grid;
+  grid-gap: 10px;
+  top: 60px;
+  position: fixed;
+  right: 40px;
+  z-index: 1002;
+  width: fit-content;
+}
+
+.alertMessage {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--chart-blue-color);
+  padding: 10px 15px;
+  min-width: 220px;
+  max-width: 400px;
+  min-height: 60px;
+  border-radius: 5px;
+  color: black;
+  font-size: 14px;
+}
+
+.alertMessageHeader {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.alertMessageError {
+  background-color: #fdecea;
+  color: #611a1c;
+}
+
+.alertMessageSuccess {
+  background-color: #edf7ed;
+  color: #1e4620;
+}
+
+.alertMessageWarning {
+  background-color: #fff4e5;
+  color: #663c0e;
+}
+
+.alertMessageSuccessIcon {
+  color: #5cb660;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.alertMessageErrorIcon {
+  color: #f55448;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.alertMessageWarningIcon {
+  color: #ffa117;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.alertMessageText {
+  padding-left: 35px;
+  padding-bottom: 5px;
+  line-height: 1.5;
+}
